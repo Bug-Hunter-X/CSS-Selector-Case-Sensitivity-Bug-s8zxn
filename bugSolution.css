@@ -1,0 +1,8 @@
+The correct CSS to style a paragraph element's font size is:
+
+```css
+/* Correct CSS */
+p { font-size: 1.2em; }
+```
+
+By using the lowercase `p` selector, which is the correct selector for paragraph elements, the font size will apply as expected.
