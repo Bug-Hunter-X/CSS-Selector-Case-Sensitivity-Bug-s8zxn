@@ -1,0 +1,8 @@
+The following CSS code snippet attempts to style a paragraph element with a specific font size. However, the font size is unexpectedly not applied.
+
+```css
+/* Incorrect CSS */
+paragraph { font-size: 1.2em; }
+```
+
+The issue is that the selector `paragraph` is not a valid CSS selector.  CSS selectors are case-sensitive and select based on element names, classes, or IDs.  `paragraph` should be lowercase: `p`.
